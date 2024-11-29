@@ -1,0 +1,18 @@
+{
+  "name": "jp.ootr.ScreenMirror",
+  "references": [
+    "UdonSharp.Runtime",
+    "VRC.Udon",
+    "VRC.Udon.Serialization.OdinSerializer",
+    "jp.ootr.common"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
