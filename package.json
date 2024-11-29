@@ -1,7 +1,7 @@
 ﻿{
   "name": "jp.ootr.screen-mirror",
   "displayName": "Screen Mirror",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "unity": "2022.3",
   "description": "Screen Mirror for Image Slide in VRChat",
