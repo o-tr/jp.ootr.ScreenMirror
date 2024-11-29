@@ -59,6 +59,7 @@ MonoBehaviour:
   targetCamera: {fileID: 4206260282826538193}
   width: 1280
   height: 720
+  customScaler: {fileID: 0}
 --- !u!114 &4819682741716718024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,7 +111,7 @@ Transform:
   m_GameObject: {fileID: 7234177574663349797}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.0191, z: 0.1067}
+  m_LocalPosition: {x: 0, y: 0, z: 0.1067}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -147,15 +148,15 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0
-  far clip plane: 0.01
+  near clip plane: -0.01
+  far clip plane: 0
   field of view: 60
   orthographic: 1
   orthographic size: 0.0955
   m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 32
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 7
